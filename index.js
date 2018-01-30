@@ -7,7 +7,7 @@ function currentLine(katzDeliLine){
   }
   
   for (let i = 0; i < katzDeliLine.length; i++){
-    lineList.push(i+1 + '. ' + katzDeliLine[i]);
+    lineList.push(i+1 + '. ' + katzDeliLine[i] + ',');
   }
 
   return lineList.join(' ');
