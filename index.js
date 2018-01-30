@@ -10,7 +10,7 @@ function currentLine(katzDeliLine){
     lineList.push(i+1 + '. ' + katzDeliLine[i] + ', ');
   }
 
-  return lineList.join();
+  return lineList.join('');
 }
 var yourMom = "Sara";
 var katzDeliLine = ['Pam', 'Jessica', yourMom];
