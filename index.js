@@ -19,9 +19,11 @@ console.log(currentLine(katzDeliLine));
 var next = "Rachel";
 
 function takeANumber(line, name){
-  katzDeliLine.push(name);
-  return name + "is now" + katzDeliLine.length + "in line";
+  line.push(name);
+  return name + " is now " + line.length + " in line.";
 }
+
+console.log(takeANumber(katzDeliLine,next));
 
 
 
