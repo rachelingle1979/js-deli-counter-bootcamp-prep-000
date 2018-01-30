@@ -2,15 +2,16 @@ var katzDeli = [];
 
 function currentLine(katzDeliLine){
   let lineList = ['The line is currently'] ;
+  let fill = [':']
   if (katzDeliLine.length === 0){
-	  lineList.concat(' empty.');
+	  lineList.push(' empty.');
   }
   
   for (let i = 0; i < katzDeliLine.length; i++){
-    [linelist ...i+1, '. ', katzDeliLine[i], ", "];
+    fill.push(' ', i+1, '. ', katzDeliLine[i]);
   }
-
-  return lineList;
+  [lineList ...fill]
+  return lineList.join('');
 }
 var yourMom = "Sara";
 var katzDeliLine = ['Pam', 'Jessica', yourMom];
