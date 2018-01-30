@@ -31,7 +31,10 @@ function nowServing(line){
   if (line.length === 0){
     return "There is nobody waiting to be served!";
   }
-  return line.pop();
+  
+  var next = line.pop();
+  return 'Currently serving' + next + '.';
+  
 }
 
 
