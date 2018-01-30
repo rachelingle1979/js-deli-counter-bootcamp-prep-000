@@ -1,7 +1,5 @@
 var katzDeli = [];
 
-var katzDeli = [];
-
 function currentLine(katzDeliLine){
   let lineList = ['The line is currently: '] ;
   if (katzDeliLine.length === 0){
@@ -11,11 +9,14 @@ function currentLine(katzDeliLine){
   for (let i = 0; i < katzDeliLine.length; i++){
     lineList.push(i+1, '. ', katzDeliLine[i], ', ');
   }
-  lineList.join('');
-  linelist.pop();
   
-  return lineList
+  lineList.pop();
+  
+  return lineList.join('');
 }
+var yourMom = "Sara";
+var katzDeliLine = ['Pam', 'Jessica', yourMom];
+console.log(currentLine(katzDeliLine));
 var yourMom = "Sara";
 var katzDeliLine = ['Pam', 'Jessica', yourMom];
 console.log(currentLine(katzDeliLine));
