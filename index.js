@@ -1,10 +1,9 @@
 var katzDeli = [];
 
 function currentLine(katzDeliLine){
-  let lineList = ['The line is currently'] ;
-  let fill = [':']
+  let lineList = ['The line is currently'];
   if (katzDeliLine.length === 0){
-	  lineList.push(' empty.');
+	  return [...lineList, " empty"].join('');
   }
   
   for (let i = 0; i < katzDeliLine.length; i++){
