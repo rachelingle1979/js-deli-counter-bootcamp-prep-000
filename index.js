@@ -17,9 +17,6 @@ function currentLine(katzDeliLine){
 var yourMom = "Sara";
 var katzDeliLine = ['Pam', 'Jessica', yourMom];
 console.log(currentLine(katzDeliLine));
-var yourMom = "Sara";
-var katzDeliLine = ['Pam', 'Jessica', yourMom];
-console.log(currentLine(katzDeliLine));
 
 var next = "Rachel";
 
@@ -30,6 +27,14 @@ function takeANumber(line, name){
 
 console.log(takeANumber(katzDeliLine,next));
 
+function nowServing(line){
+  
+  if (line.length === 0){
+    return "There is nobody waiting to be served!";
+  }
+  
+  
+}
 
 
 
