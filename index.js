@@ -3,7 +3,7 @@ var katzDeli = [];
 function currentLine(katzDeliLine){
   let lineList = ['The line is currently: '] ;
   if (katzDeliLine.length === 0){
-	  return "The line is currently empty"
+	  return "The line is currently empty."
   }
   
   for (let i = 0; i < katzDeliLine.length; i++){
