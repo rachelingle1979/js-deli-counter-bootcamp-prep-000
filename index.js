@@ -1,9 +1,9 @@
 var katzDeli = [];
 
 function currentLine(katzDeliLine){
-  let lineList = '';
+  let lineList = 'The line is currently';
   for (let i = 0; i < katzDeliLine.length; i++){
-    line
+    lineList.concat(indexOf(katzDeliLine[i]), '.', )
   }
 }
 
